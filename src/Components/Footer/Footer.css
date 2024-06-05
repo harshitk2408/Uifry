@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.footer-cont img{
+    margin-top: -2em;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    gap:3em;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 80em;
+}
+.banner button{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:4%;
+    background-color: white;
+    font-weight: 600;
+    padding: 1.5%;
+    width: 15%;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    bottom: 14.5em;
+    left: 16em;
+    border-radius: 15px;
+}
+.banner button svg{
+    font-size: 1.6em;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.banner-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    justify-content: center;
+    gap:6em;
+}
+.first-col{
+    display: flex;
+    flex-direction: row;
+}
+.fcc{
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.fcc h3{
+    font-size: 2em;
+}
+.fcc img{
+    margin-top: 0em;
+}
+.fcc div{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+.fcl{
+    font-size: 1.3em;
+    color:#FF5555;
+}
+.fcc .mail-box{
+    gap:0;
+}
+.mail-box input{
+    padding: 10%;
+    border: white;
+    border-radius: 10px 0 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.mail-box button{
+    background-color: black;
+    color: white;
+    padding: 10%;
+    border: black;
+    border-radius: 0 10px 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.grad-line{
+    margin-top: 2em;
+    position: relative;
+    left: 10em;
+    width: 80%;
+    height: 0.1em;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,1) 50%, rgba(255,255,255,1) 100%);
+}
+.copyright{
+    font-weight: 600;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+}

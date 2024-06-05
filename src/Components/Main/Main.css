@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.main-cont{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+.main-content .text{
+    display: flex;
+    flex-direction: column;
+    height:60%;
+    gap:2em;
+}
+.main-content{
+    padding-top: 10%;
+    padding-left: 5%;
+    background: url('../../assets/bg1.png');
+    background-repeat: no-repeat;
+    background-position-x:50px;
+    background-position-y: -33px;
+    background-size: 35em;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 50em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+}
+.main-cont p{
+    color: grey;
+    width:33em;
+}
+.main-cont .text h1{
+    font-weight: bold;
+    font-size: 4em;
+}
+.main-cont .buttons{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    align-items: center;
+}
+.main-cont .buttons div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2%;
+    font-weight: 500;
+    width:20em;
+}
+.main-cont button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    width: 10em;
+    flex-direction: row;
+    align-items: center;
+    gap:10%;
+    border-radius: 10px;
+}
+.main-content .banner{
+    width: 40em;
+}
+.frame{
+    width:42em;
+    height: 80%;
+    position: relative;
+    right:2em;
+}
